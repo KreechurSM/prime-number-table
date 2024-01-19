@@ -21,7 +21,7 @@ internal class PrimeParser()
     }
   }
 
-  public List<PrimeNode> sieveOfEratosthenes()
+  public List<PrimeNode> generatePrimeTable()
   {
     int count = Nodes.Count;
     // Foreach node, check if number is prime
@@ -30,12 +30,10 @@ internal class PrimeParser()
       Nodes[i].IsPrime = IsPrime(Nodes[i].Number);
     }
 
-
-
     return Nodes;
   }
 
-  private static bool IsPrime(int n)
+  internal static bool IsPrime(int n)
   {
     if (n <= 1) return false;
     if (n == 2) return true;

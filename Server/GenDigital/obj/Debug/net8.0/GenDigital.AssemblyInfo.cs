@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenDigital")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ef635c94d5594211b85c01463b1709e974abe2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e003a331f27439837f87b649aebf0e3bc1fd53f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenDigital")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenDigital")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

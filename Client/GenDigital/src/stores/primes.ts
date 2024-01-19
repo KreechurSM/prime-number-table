@@ -10,7 +10,7 @@ export const usePrimesStore = defineStore('primes', () => {
   }
 
   async function fetchPrimeTable(number: Number) {
-    const data = await axios.get(`http://localhost:5122/isprime/${number}`)
+    const data = await axios.get(`http://localhost:5122/generatetable/${number}`)
     return data.data
   }
 

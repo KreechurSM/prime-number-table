@@ -11,12 +11,12 @@ app.UseCors(policy => policy.WithOrigins("http://localhost:5173").AllowAnyMethod
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapGet("/isprime/{number}", (int number) =>
+app.MapGet("/generatetable/{number}", (int number) =>
 {
   PrimeParser parser = new PrimeParser(number);
   bool isEven = number % 2 == 0;
   int endValue = number * number;
-  List<PrimeNode> _t = parser.sieveOfEratosthenes();
+  List<PrimeNode> _t = parser.generatePrimeTable();
   return _t;
 });
 
